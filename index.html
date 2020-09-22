@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercices javascript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li>Accueil</li>
+            <li>Connexion</li>
+            <li>Inscription</li>
+        </ul>
+    </header>
+    <main>
+        <div id="centre">
+            Lorem ipsum dolor neque deserunt magnam asperiores fugiat blanditiis, autem distinctio rerum, minus voluptas eligendi possimus laudantium deleniti nobis nesciunt iure.
+        </div>
+        <button onclick="center()">Cilquez-ici </button>
+        <div id="demo"></div>
+        <button onclick="appears()">TEST</button>
+        <div id="demo2">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, aliquam!
+        </div>
+        <button onclick="change ()">change</button>
+    </main>
+
+</body>
+
+
+<script src="script.js"></script>
+<script>
+    function center() {
+        document.getElementById("centre").style.display = "flex";
+        document.getElementById("centre").style.justifyContent = "center";
+        document.getElementById("centre").style.backgroundColor = "yellow"; // on peux le mettre dans le fichier js ça change rien 
+    }
+
+    function appears() {
+        document.getElementById("demo").innerHTML = "Hello World!! "; //html si on ajoute une balise il la traite ex "<h1>hello world !!</h1>""
+    }
+
+    function change() {
+        document.getElementById("demo2").innerHTML = "coucou j'ai changé!!"
+
+    }
+</script>
+
+</html>
