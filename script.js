@@ -9,3 +9,12 @@ function appears() {
     document.getElementById("clique").innerHTML = "ici c'est l'accueil";
 
 }
+
+function turnOn() {
+    document.getElementById("img").src = "image2.jpg";
+
+}
+
+function turnOff() {
+    document.getElementById("img").src = "image.jpg";
+}
