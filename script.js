@@ -4,3 +4,8 @@ function center() {
     document.getElementById("clique").style.justifyContent = "space-around";
     document.getElementById("clique").style.listStyle = "none";
 }
+
+function appears() {
+    document.getElementById("clique").innerHTML = "ici c'est l'accueil";
+
+}
